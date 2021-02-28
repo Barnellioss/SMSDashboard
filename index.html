@@ -16,112 +16,112 @@
   <input id="modal-toggle" type="checkbox">
   <label class="modal-backdrop" for="modal-toggle"></label>
   <div class="modal-content">
-      <label class="modal-close-btn" for="modal-toggle">
-        <svg width="50" height="50">
-          <line x1="10" y1="10" x2="40" y2="40"/>
-          <line x1="40" y1="10" x2="10" y2="40"/>
-        </svg>
-      </label>
-      <div class="tabs">
-<!--  LOG IN  -->
-          <input class="radio" id="tab-1" name="tabs-name" type="radio" checked>
-          <label for="tab-1" class="table"><span>Login</span></label>
-          <div class="tabs-content">
-             <div class="login_socnet">
-                 <a href="" class="fa fa-vk" aria-hidden="true"></a>
-                 <a href="" class="fa fa-google-plus" aria-hidden="true"></a>
-                 <a href="" class="fa fa-facebook" aria-hidden="true"></a>
-             </div>
-             <form action="">
-                 <input type="email" placeholder="Email" required>
-                 <input type="password" placeholder="Password" required>
-                 <input type="submit" value="Log In">
-             </form>
-             <form class="forgot-password" action="">
-                 <input id="forgot-password-toggle" type="checkbox">
-                 <label for="forgot-password-toggle">forgot password?</label>
-                 <div class="forgot-password-content">
-                     <input type="email" placeholder="enter your email" required>
-                     <input type="submit" value="go">
-                 </div>
-             </form>
+    <label class="modal-close-btn" for="modal-toggle">
+      <svg width="50" height="50">
+        <line x1="10" y1="10" x2="40" y2="40" />
+        <line x1="40" y1="10" x2="10" y2="40" />
+      </svg>
+    </label>
+    <div class="tabs">
+      <!--  LOG IN  -->
+      <input class="radio" id="tab-1" name="tabs-name" type="radio" checked>
+      <label for="tab-1" class="table"><span>Login</span></label>
+      <div class="tabs-content">
+        <div class="login_socnet">
+          <a href="" class="fa fa-vk" aria-hidden="true"></a>
+          <a href="" class="fa fa-google-plus" aria-hidden="true"></a>
+          <a href="" class="fa fa-facebook" aria-hidden="true"></a>
+        </div>
+        <form>
+          <input type="email" placeholder="Email" required>
+          <input type="password" placeholder="Password" required>
+          <input type="submit" value="Log In">
+        </form>
+        <form class="forgot-password">
+          <input id="forgot-password-toggle" type="checkbox">
+          <label for="forgot-password-toggle">forgot password?</label>
+          <div class="forgot-password-content">
+            <input type="email" placeholder="enter your email" required>
+            <input type="submit" value="go">
           </div>
-<!--  SIGN UP  -->
-          <input class="radio" id="tab-2" name="tabs-name" type="radio">
-          <label for="tab-2" class="table"><span>Sign up</span></label>
-          <div class="tabs-content">
-              <div class="login_socnet">
-                 <a href="" class="fa fa-vk" aria-hidden="true"></a>
-                 <a href="" class="fa fa-google-plus" aria-hidden="true"></a>
-                 <a href="" class="fa fa-facebook" aria-hidden="true"></a>
-             </div>
-             <form action="">
-                 <input type="email" placeholder="Email" required>
-                 <input type="password" placeholder="Password" required>
-                 <input type="password" placeholder="Confirm password" required>
-                 <input type="submit" value="Sign Up">
-             </form>
-          </div>
+        </form>
       </div>
-  </div>   
+      <!--  SIGN UP  -->
+      <input class="radio" id="tab-2" name="tabs-name" type="radio">
+      <label for="tab-2" class="table"><span>Sign up</span></label>
+      <div class="tabs-content">
+        <div class="login_socnet">
+          <a href="" class="fa fa-vk" aria-hidden="true"></a>
+          <a href="" class="fa fa-google-plus" aria-hidden="true"></a>
+          <a href="" class="fa fa-facebook" aria-hidden="true"></a>
+        </div>
+        <form>
+          <input type="email" placeholder="Email" required>
+          <input type="password" placeholder="Password" required>
+          <input type="password" placeholder="Confirm password" required>
+          <input type="submit" value="Sign Up">
+        </form>
+      </div>
+    </div>
+  </div>
 
 
   <header class="bg-header xl:my-0 lg:my:4 md:2 sm:2 bg-no-repeat bg-cover h-screen">
-      <!-- This example requires Tailwind CSS v2.0+ -->
-      <div class="relative overflow-visible h-screen">
-        <div class="max-w-7xl mx-auto h-screen">
-          <div class="relative z-10 flex flex-col pb-8 sm:pb-16 md:pb-20 lg:w-full lg:pb-28 xl:pb-32 h-screen">
-            <div class="relative pt-12 px-4 sm:px-2 lg:px-8">
-              <nav class="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
-                <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
-                  <div class="flex items-center justify-between w-full md:w-auto">
-                    <a class="ml-5" href="#">
-                      <span class="sr-only">Workflow</span>
-                      <img class="h-16 w-auto sm:h-16" src="images/logo.svg">
-                    </a>
-                    <div class=" flex items-center md:hidden absolute right-5 top-0 sm:-top-2">
-                      <button type="button"
-                        class="bg-white openBtn rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
-                        aria-expanded="false">
-                        <span class="sr-only">Open main menu</span>
-                        <!-- Heroicon name: outline/menu -->
-                        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                          stroke="currentColor" aria-hidden="true">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M4 6h16M4 12h16M4 18h16" />
-                        </svg>
-                      </button>
-                    </div>
+    <!-- This example requires Tailwind CSS v2.0+ -->
+    <div class="relative overflow-visible h-screen">
+      <div class="max-w-7xl mx-auto h-screen">
+        <div class="relative z-10 flex flex-col pb-8 sm:pb-16 md:pb-20 lg:w-full lg:pb-28 xl:pb-32 h-screen">
+          <div class="relative pt-12 px-4 sm:px-2 lg:px-8">
+            <nav class="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
+              <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
+                <div class="flex items-center justify-between w-full md:w-auto">
+                  <a class="ml-5" href="#">
+                    <span class="sr-only">Workflow</span>
+                    <img class="h-16 w-auto sm:h-16" src="images/logo.svg" alt="logo">
+                  </a>
+                  <div class=" flex items-center md:hidden absolute right-5 top-0 sm:-top-2">
+                    <button type="button"
+                      class="bg-white openBtn rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                      aria-expanded="false">
+                      <span class="sr-only">Open main menu</span>
+                      <!-- Heroicon name: outline/menu -->
+                      <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M4 6h16M4 12h16M4 18h16" />
+                      </svg>
+                    </button>
                   </div>
                 </div>
-                <div class="flex justify-between items-center w-full text-base">
-                  <div class="flex hidden md:block md:ml-6 md:pr-4 md:space-x-8">
-                    <a href="#" class="text-header font-normal text-base hover:text-gray-900">Features</a>
+              </div>
+              <div class="flex justify-between items-center w-full text-base">
+                <div class="flex hidden md:block md:ml-6 md:pr-4 md:space-x-8">
+                  <a href="#" class="text-header font-normal text-base hover:text-gray-900">Features</a>
 
-                    <a href="#" class="text-header font-normal text-base hover:text-gray-900">About</a>
+                  <a href="#" class="text-header font-normal text-base hover:text-gray-900">About</a>
 
-                    <a href="#" class="text-header font-normal text-base hover:text-gray-900">Pricing</a>
+                  <a href="#" class="text-header font-normal text-base hover:text-gray-900">Pricing</a>
 
-                    <a href="#" class="text-header font-normal text-base hover:text-gray-900">Blog</a>
+                  <a href="#" class="text-header font-normal text-base hover:text-gray-900">Blog</a>
 
-                    <a href="#" class="text-header font-normal text-base hover:text-indigo-500">Contact Us</a>
-                  </div>
-
-                  <div class="hidden md:block md:ml-4 md:pr-0 md:space-x-8 flex justify-between">
-                    <label for="modal-toggle" class="text-header modal-btn font-normal text-base hover:text-gray-900">Login</label>
-
-                    <a class="p-5 text-base bg-customBlue font-semibold rounded-extra ml-4 outline-none text-white"
-                      href="#email" data-scroll-focus="#id2" data-scroll-speed="700" data-scroll-offset="400"
-                      type="button">Start
-                      Free
-                      Trial</a>
-
-                  </div>
+                  <a href="#" class="text-header font-normal text-base hover:text-indigo-500">Contact Us</a>
                 </div>
-              </nav>
-            </div>
 
-            <!--
+                <div class="hidden md:block md:ml-4 md:pr-0 md:space-x-8 flex justify-between">
+                  <label for="modal-toggle"
+                    class="text-header modal-btn font-normal text-base hover:text-gray-900">Login</label>
+
+                  <a class="p-5 text-base bg-customBlue font-semibold rounded-extra ml-4 outline-none text-white"
+                    href="#email" data-scroll-focus="#id2" data-scroll-speed="700" data-scroll-offset="400">Start
+                    Free
+                    Trial</a>
+
+                </div>
+              </div>
+            </nav>
+          </div>
+
+          <!--
         Mobile menu, show/hide based on menu open state.
 
         Entering: "duration-150 ease-out"
@@ -131,45 +131,44 @@
           From: "opacity-100 scale-100"
           To: "opacity-0 scale-95"
       -->
-            <div class="mobile__menu absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
-              <div class="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
-                <div class="px-5 pt-4 flex items-center justify-between">
-                  <div>
-                    <img class="h-8 w-auto" src="images/logo.svg" alt="">
-                  </div>
-                  <div class="-mr-2">
-                    <button type="button"
-                      class="bg-white closeBtn rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
-                      <span class="sr-only">Close main menu</span>
-                      <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor" aria-hidden="true">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                          d="M6 18L18 6M6 6l12 12" />
-                      </svg>
-                    </button>
-                  </div>
+          <div class="mobile__menu absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
+            <div class="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
+              <div class="px-5 pt-4 flex items-center justify-between">
+                <div>
+                  <img class="h-8 w-auto" src="images/logo.svg" alt="">
                 </div>
-                <div class="px-2 pt-2 pb-3 space-y-1">
-                  <a href="#"
-                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Product</a>
-
-                  <a href="#"
-                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Features</a>
-
-                  <a href="#"
-                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Marketplace</a>
-
-                  <a href="#"
-                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Company</a>
+                <div class="-mr-2">
+                  <button type="button"
+                    class="bg-white closeBtn rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                    <span class="sr-only">Close main menu</span>
+                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                      stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
                 </div>
-                <label for="modal-toggle"
-                  class="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100  modal-btn">
-                  Log in
-                </label>
               </div>
+              <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="#"
+                  class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Product</a>
+
+                <a href="#"
+                  class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Features</a>
+
+                <a href="#"
+                  class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Marketplace</a>
+
+                <a href="#"
+                  class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Company</a>
+              </div>
+              <label for="modal-toggle"
+                class="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100  modal-btn">
+                Log in
+              </label>
             </div>
-            <div class="md:container md:mx-auto box-border h-screen">
-            <main class="max-w-screen-md self-bottom p-4 mx-auto max-w-7xl mt-24 sm:mt-32 md:mt-22 lg:mt-28 xl:mt32">
+          </div>
+          <div class="md:container md:mx-auto box-border h-screen">
+            <div class="max-w-screen-md self-bottom p-4 mx-auto max-w-7xl mt-24 sm:mt-32 md:mt-22 lg:mt-28 xl:mt32">
               <div class="sm:text-center text-center">
                 <h1 class="font-bold text-customBlack sm:text-4xl text-3xl md:text-5xl">
                   Welcome to your presonal SMS Dashboard
@@ -738,7 +737,7 @@
                   </defs>
                 </svg>
               </div>
-            </main>
+            </div>
           </div>
         </div>
       </div>
@@ -748,7 +747,8 @@
   <section class="pageSection lg:mt-24 xl:max-h-80 py-8 px-4 sm:p-0">
     <div class="md:container box-border">
       <div class="mt-14 flex justify-evenly flex-col align-center md:flex-row">
-        <h2 class="font-semibold text-customBlack sm:text-2xl text-xl text-center sm:text-left sm:max-w-sm max-w-xs mx-auto">
+        <h2
+          class="font-semibold text-customBlack sm:text-2xl text-xl text-center sm:text-left sm:max-w-sm max-w-xs mx-auto">
           Nisi ad voluptate laboris dolor deserunt adipisicing ea amet mollit commodo voluptate aute adipisicing. Anim
           minim do exercitation id.
         </h2>
@@ -786,7 +786,8 @@
             dolor
             id voluptate cupidatat. Dolore ut excepteur enim tempor. </p>
         </div>
-        <form class="flex items-center flex-col lg:max-w-md md:max-w-sm justify-center bg-white xl:w-md font-normal br-3 shadow lg:p-8 md:p-4 -mt-8 md:w-6/12 sm:w-8/12 w-8/12 mx-auto h-80 md:h-96">
+        <form
+          class="flex items-center flex-col lg:max-w-md md:max-w-sm justify-center bg-white xl:w-md font-normal br-3 shadow lg:p-8 md:p-4 -mt-8 md:w-6/12 sm:w-8/12 w-8/12 mx-auto h-80 md:h-96">
           <div class="flex flex-col items-center relative md:max-w-xs lg:w-96 md: w-80">
             <label class="absolute top-2 md:left-1 lg:-left-7 text-header" for="email">Your Email</label>
             <input
@@ -799,45 +800,51 @@
               class="p-3 font-normal outline-none text-xl lg:w-96 md:w-80 h-14 border-borderColor border sm:w-80 mt-10 placeholder-phColor font-normal w-56"
               type="text" id="phone" autocomplete="off" placeholder="Write here your phone number">
           </div>
-          <input class="self-start w-40 h-14 bg-customBlue font-semibold outline-none text-white mx-auto my-6 md:mt-6 md:ml-4 rounded-extra"
+          <input
+            class="self-start w-40 h-14 bg-customBlue font-semibold outline-none text-white mx-auto my-6 md:mt-6 md:ml-4 rounded-extra"
             type="submit" value="Start Free Trial">
         </form>
       </div>
+    </div>
   </section>
 
   <section id="Discover" class="pageSection overflow-visible oppportunity mt-28 mb-10 ">
     <div class="md:container">
-      <div class="opportunity__wrapper grid overflow-visible grid-flow-col md:grid-cols-2 xl:gap-x-20 gap-x-10 gap-y-10 md:grid-rows-2 grid-cols-1 grid-rows-4">
+      <div
+        class="opportunity__wrapper grid overflow-visible grid-flow-col md:grid-cols-2 xl:gap-x-20 gap-x-10 gap-y-10 md:grid-rows-2 grid-cols-1 grid-rows-4">
         <div class="opprtunity__item w-full h-96 bg-firstBg bg-no-repeat bg-left flex justify-start ">
           <div class="md:max-w-md 2xl:ml-20 h-80 mt-5 br-3 bg-white relative sm:mx-auto mx-auto">
-            <div class="content__wrapper rounded-2xl shadow flex flex-col justify-evenly h-full xl:w-96 sm:w-96 w-80 content__wrapper rounded-2xl mt-5 shadow">
+            <div
+              class="content__wrapper rounded-2xl shadow flex flex-col justify-evenly h-full xl:w-96 sm:w-96 w-80 content__wrapper rounded-2xl mt-5 shadow">
               <div class="">
-                <div class="flex -mt-5 mx-4 h-20 2xl:mx-8 md:mx-4 w-sm pl-5 sm:mx-4 border-borderColor items-center border">
+                <div
+                  class="flex -mt-5 mx-4 h-20 2xl:mx-8 md:mx-4 w-sm pl-5 sm:mx-4 border-borderColor items-center border">
                   <div class="flex-shrink-0">
                     <div class="flex items-center justify-center h-12 w-12 rounded-md text-white">
                       <img class="br-extra" src="images/person-1.svg" alt="">
                     </div>
                   </div>
                   <div class="ml-4">
-                    <dt class="text-lg leading-6 font-medium text-gray-900">
+                    <dt class="text-lg leading-6 text-normal font-normal text-customBlack">
                       Brandie Warren
                     </dt>
-                    <dd class="mt-2 text-base text-gray-500">
+                    <dd class="text-base font-normal text-header">
                       Sunt mollit dolor sunt non cillum pari...
                     </dd>
                   </div>
                 </div>
-                <div class="flex mt-5 2xl:mx-8 md:mx-4 mx-4 h-20 w-sm pl-5 sm:mx-4  border-borderColor items-center border">
+                <div
+                  class="flex mt-5 2xl:mx-8 md:mx-4 mx-4 h-20 w-sm pl-5 sm:mx-4  border-borderColor items-center border">
                   <div class="flex-shrink-0">
                     <div class="flex items-center justify-center h-12 w-12 rounded-md  text-white">
                       <img class="br-extra" src="images/person-2.svg" alt="">
                     </div>
                   </div>
                   <div class="ml-4 ">
-                    <dt class="text-lg leading-6 font-medium text-gray-900">
+                    <dt class="text-base leading-6 font-normal text-customBlack">
                       Wade Wilson
                     </dt>
-                    <dd class="mt-2 text-base text-gray-500">
+                    <dd class="text-base font-normal text-header">
                       Sunt mollit dolor sunt non cillum pari...
                     </dd>
                   </div>
@@ -859,7 +866,8 @@
           </div>
         </div>
         <div class="opprtunity__item 2xl:w-4/5">
-          <div class="section__wrapper textBlock lg:w-10/12 md:mr-4 py-2 md:my-0 mx w-10/12 sm:mx-auto md:ml-0 sm:w-8/12 w-8/12 mx-auto">
+          <div
+            class="section__wrapper textBlock lg:w-10/12 md:mr-4 py-2 md:my-0 mx w-10/12 sm:mx-auto md:ml-0 sm:w-8/12 w-8/12 mx-auto">
             <img class="2xl:mt-16 mt-20 md:mt-0" src="images/smslogo.svg" alt="">
             <h2 class="font-semibold text-customBlack text-2xl mt-5 ">Send SMS</h2>
             <p class="text-base text-header ">Send the same message to multiple recipients in one scheduled event. If
@@ -868,7 +876,8 @@
           </div>
         </div>
         <div class="opprtunity__item 2xl:w-4/5">
-          <div class="section__wrapper lg:w-10/12 md:mr-4 py-2 md:my-0 mx w-10/12 2xl:ml-48 xl:ml-36 sm:mx-auto md:ml-12 sm:w-8/12 w-8/12 mx-auto">
+          <div
+            class="section__wrapper lg:w-10/12 md:mr-4 py-2 md:my-0 mx w-10/12 2xl:ml-48 xl:ml-36 sm:mx-auto md:ml-12 sm:w-8/12 w-8/12 mx-auto">
             <img class="mt-16" src="images/phonelogo.svg" alt="">
             <h2 class="font-semibold text-customBlack text-2xl mt-5 ">Outbound SMS</h2>
             <p class="text-base text-header w-11/12">Create and store templates for messages you send on a regular
@@ -877,8 +886,10 @@
           </div>
         </div>
         <div class="opprtunity__item">
-          <div class="opprtunity__item w-full h-96 bg-fourthBg bg-no-repeat 2xl:bg-right xl:bg-left flex xl:justify-end">
-            <div class="max-w-md md:h-96 h-80 br-3 2xl:ml-48 xl:ml-28 bg-white relative sm:mx-auto md:mx-0 w-10/12 mx-auto">
+          <div
+            class="opprtunity__item w-full h-96 bg-fourthBg bg-no-repeat 2xl:bg-right xl:bg-left flex xl:justify-end">
+            <div
+              class="max-w-md md:h-96 h-80 br-3 2xl:ml-48 xl:ml-28 bg-white relative sm:mx-auto md:mx-0 w-10/12 mx-auto">
               <div class="content__wrapper rounded-2xl mt-5 shadow flex flex-col justify-evenly h-full">
                 <div class="topGroup flex flex-row -mt-5 h-20 sm:mx-2 mx-0 w-sm pl-5 items-center">
                   <img src="images/person-3.svg" alt="">
@@ -898,11 +909,13 @@
                   </div>
                 </div>
                 <div class="">
-                  <div class="flex xl:-mt-5 2xl:h-20 xl:h-24 2xl:mx-8 my-4 sm:mx-4 w-sm px-5 border-borderColor items-center border mx-3">
+                  <div
+                    class="flex xl:-mt-5 2xl:h-20 xl:h-24 2xl:mx-8 my-4 sm:mx-4 w-sm px-5 border-borderColor items-center border mx-3">
                     <p class="text-base text-header ">Culpa pariatur minim eiusmod mollit qui. Dolore reprehenderit duis
                       sint aliqua do magna pariatur ad reprehenderit laborum veniam consequat.</p>
                   </div>
-                  <div class="flex mt-5 2xl:mx-8 sm:mx-4 2xl:h-20 my-4 xl:h-24 w-sm px-5 border-borderColor items-center border mx-3">
+                  <div
+                    class="flex mt-5 2xl:mx-8 sm:mx-4 2xl:h-20 my-4 xl:h-24 w-sm px-5 border-borderColor items-center border mx-3">
                     <p class="text-base text-header"> Culpa pariatur minim eiusmod mollit qui. Dolore reprehenderit duis
                       sint aliqua do magna pariatur ad reprehenderit laborum veniam consequat.</p>
                   </div>
@@ -912,6 +925,8 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
   </section>
 
 
