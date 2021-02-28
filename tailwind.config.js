@@ -1,5 +1,6 @@
 module.exports = {
-  purge: ["./index.html"],
+  enabled: true,
+  content: ["./index.html"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     container: {
