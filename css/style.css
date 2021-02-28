@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
-@import "compass/reset";
+@tailwind utilities;
+
 @font-face{
     font-family: "ProximaNova-Regular",  sans-serif;
     src: url('/fonts/ProximaNova-Regular.woff2') format('woff2'),

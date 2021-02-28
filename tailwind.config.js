@@ -1,5 +1,5 @@
 module.exports = {
-  purge: [],
+  purge: ["./index.html"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     container: {
@@ -29,12 +29,11 @@ module.exports = {
 
     extend: {
       backgroundImage: theme => ({
-        'header': "url('images/header-bg.svg')",
-        'mountain': "url('images/mountain-bg.png')",
-        'firstBg': "url('images/firstgrid-bg.svg')",
-        'fourthBg': "url('images/fourthgrid-bg.svg')"
+        'headerBg': "url('/images/header-bg.svg')",
+        'mountain': "url('/images/mountain-bg.png')",
+        'firstBg': "url('/images/firstgrid-bg.svg')",
+        'fourthBg': "url('/images/fourthgrid-bg.svg')"
       }),
-
 
       colors: {
         header: '#A5A9C0',
