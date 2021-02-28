@@ -1,0 +1,28 @@
+{
+  "name": "SMSDashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.6",
+    "tailwindcss": "^2.0.3",
+    "vite": "^2.0.4"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Barnellioss/SMSDashboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Barnellioss/SMSDashboard/issues"
+  },
+  "homepage": "https://github.com/Barnellioss/SMSDashboard#readme"
+}
